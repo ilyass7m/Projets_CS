@@ -21,7 +21,8 @@ X = data.drop('hs_asthma', axis=1)
 
 
 X=pd.read_excel(r'C:\Users\HOME\Desktop\EI exposome\Projets_CS\data\data_compo3.xlsx')
-y = data['hs_asthma']
+print(X.shape)
+'''y = data['hs_asthma']
 
 y=np.where(y<0, 0, 1)
 
@@ -66,3 +67,4 @@ plt.ylabel('Taux de vrais positifs (TPR)')
 plt.title('Courbe ROC')
 plt.legend(loc='lower right')
 plt.show()
+'''
